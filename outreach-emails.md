@@ -29,8 +29,10 @@ I have three packages ranging from $2,000 (domain only) to $4,500 (full setup wi
 Would you have 10 minutes this week to discuss?
 
 Best,
-[Your Name]
-[Your Phone]
+Chris Hauman
+Webbersaurus
+(203) 530-7396
+chrishauman@gmail.com
 
 ---
 
@@ -68,8 +70,10 @@ I'm offering this to a select few CT DUI attorneys. If you're interested, I'd be
 
 Worth a conversation?
 
-[Your Name]
-[Your Phone]
+Chris Hauman
+Webbersaurus
+(203) 530-7396
+chrishauman@gmail.com
 
 ---
 
@@ -93,7 +97,8 @@ I know you're busy - here's the 30-second version:
 
 If timing isn't right, no worries. But if you're curious, happy to send over the full details.
 
-[Your Name]
+Chris Hauman
+Webbersaurus
 
 ---
 
@@ -114,7 +119,8 @@ https://webbersaur.github.io/dui-lawyer-template/sales-page.html
 
 Thanks for your time either way.
 
-[Your Name]
+Chris Hauman
+Webbersaurus
 
 ---
 

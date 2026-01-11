@@ -45,6 +45,15 @@
             text-align: center;
         }
 
+        .hero-brand {
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.5);
+            margin-bottom: 20px;
+        }
+
         .badge {
             display: inline-block;
             background: var(--secondary);
@@ -652,9 +661,68 @@
         footer {
             background: var(--dark);
             color: rgba(255,255,255,0.6);
-            padding: 30px 0;
+            padding: 40px 0;
             text-align: center;
             font-size: 14px;
+        }
+
+        .footer-brand {
+            margin-bottom: 15px;
+        }
+
+        .brand-name {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--white);
+            letter-spacing: -0.5px;
+        }
+
+        .brand-tagline {
+            display: block;
+            font-size: 13px;
+            color: rgba(255,255,255,0.5);
+            margin-top: 5px;
+        }
+
+        .footer-contact {
+            margin-bottom: 15px;
+        }
+
+        .footer-contact a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+
+        .footer-contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-contact span {
+            margin: 0 10px;
+            color: rgba(255,255,255,0.3);
+        }
+
+        .footer-copy {
+            font-size: 12px;
+            opacity: 0.5;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .cta .btn-outline-light {
+            background: transparent;
+            border: 2px solid var(--white);
+            color: var(--white);
+        }
+
+        .cta .btn-outline-light:hover {
+            background: var(--white);
+            color: var(--primary);
         }
 
         /* Responsive */
@@ -741,6 +809,7 @@
     <!-- Hero -->
     <section class="hero">
         <div class="container">
+            <div class="hero-brand">Webbersaurus</div>
             <div class="badge">Ready-to-Launch Package</div>
             <h1>CT DUI Lawyer<br><span>Website Package</span></h1>
             <p>Premium exact-match domain + professionally designed, SEO-optimized website. Everything you need to dominate the Connecticut DUI market.</p>
@@ -1076,14 +1145,28 @@
         <div class="container">
             <h2>Ready to Dominate CT DUI Search?</h2>
             <p>Get the premium domain and professional website that positions you as the go-to DUI attorney in Connecticut.</p>
-            <a href="mailto:your@email.com" class="btn">Contact Me Today</a>
+            <div class="cta-buttons">
+                <a href="mailto:chrishauman@gmail.com" class="btn">Email Me</a>
+                <a href="tel:2035307396" class="btn btn-outline-light">Call (203) 530-7396</a>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>CT DUI Lawyer Website Package | Premium Domain + Website Bundle</p>
+            <div class="footer-brand">
+                <span class="brand-name">Webbersaurus</span>
+                <span class="brand-tagline">Premium Domains & Web Development</span>
+            </div>
+            <div class="footer-contact">
+                <a href="mailto:chrishauman@gmail.com">chrishauman@gmail.com</a>
+                <span>|</span>
+                <a href="tel:2035307396">(203) 530-7396</a>
+                <span>|</span>
+                <a href="https://webbersaurus.com" target="_blank">webbersaurus.com</a>
+            </div>
+            <p class="footer-copy">CT DUI Lawyer Website Package | Premium Domain + Website Bundle</p>
         </div>
     </footer>
 </body>
