@@ -448,6 +448,93 @@
             border-radius: 50%;
         }
 
+        /* Search Demand */
+        .search-demand {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: var(--white);
+        }
+
+        .search-demand .section-title h2 {
+            color: var(--white);
+        }
+
+        .search-demand .section-title p {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .demand-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .demand-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 30px 20px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .demand-card.main {
+            background: var(--secondary);
+            border-color: var(--secondary);
+        }
+
+        .demand-number {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .demand-card.main .demand-number {
+            color: var(--white);
+        }
+
+        .demand-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .demand-keywords {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .demand-keywords h4 {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .keyword-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .keyword-tags span {
+            background: rgba(255,255,255,0.1);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 14px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .demand-source {
+            font-size: 12px;
+            opacity: 0.6;
+        }
+
+        .demand-source a {
+            color: var(--secondary);
+        }
+
         /* Appraisal */
         .appraisal {
             padding: 80px 0;
@@ -593,6 +680,14 @@
 
             .appraisal-value {
                 font-size: 48px;
+            }
+
+            .demand-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .demand-number {
+                font-size: 28px;
             }
 
             .included-grid,
@@ -765,6 +860,48 @@
                         <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Mobile-responsive design</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Demand -->
+    <section class="search-demand">
+        <div class="container">
+            <div class="section-title">
+                <h2>Real Search Demand</h2>
+                <p>People are actively searching for DUI lawyers in Connecticut</p>
+            </div>
+            <div class="demand-grid">
+                <div class="demand-card main">
+                    <div class="demand-number">27,100</div>
+                    <div class="demand-label">Monthly U.S. searches for "DUI Lawyer"</div>
+                </div>
+                <div class="demand-card">
+                    <div class="demand-number">18,100</div>
+                    <div class="demand-label">"DUI Attorney" searches/month</div>
+                </div>
+                <div class="demand-card">
+                    <div class="demand-number">9,900</div>
+                    <div class="demand-label">"DUI Lawyer Near Me" searches/month</div>
+                </div>
+                <div class="demand-card">
+                    <div class="demand-number">300-500</div>
+                    <div class="demand-label">Est. CT-specific DUI searches/month</div>
+                </div>
+            </div>
+            <div class="demand-keywords">
+                <h4>Keywords This Domain Can Rank For:</h4>
+                <div class="keyword-tags">
+                    <span>CT DUI lawyer</span>
+                    <span>Connecticut DUI attorney</span>
+                    <span>DUI lawyer Connecticut</span>
+                    <span>New Haven DUI lawyer</span>
+                    <span>CT drunk driving lawyer</span>
+                    <span>Connecticut DWI attorney</span>
+                    <span>DUI defense CT</span>
+                    <span>best DUI lawyer CT</span>
+                </div>
+                <p class="demand-source">Source: <a href="https://marketkeep.com/seo-keywords-for-dui-lawyers/" target="_blank">MarketKeep SEO Keyword Research</a></p>
             </div>
         </div>
     </section>
