@@ -24,7 +24,7 @@ I own **ctduilawyer.com** - the exact-match domain for "CT DUI lawyer" searches.
 
 **Live preview:** https://webbersaur.github.io/dui-lawyer-template/
 
-I have three packages ranging from $2,000 (domain only) to $4,500 (full setup with your info).
+Two packages available: $3,500 for domain + website files, or $4,500 fully set up with your info.
 
 Would you have 10 minutes this week to discuss?
 

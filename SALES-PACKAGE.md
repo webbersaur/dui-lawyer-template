@@ -100,18 +100,7 @@
 
 ## Pricing Tiers
 
-### Option 1: Domain Only
-**$2,000**
-
-Includes:
-- ctduilawyer.com domain transfer
-- Full ownership rights
-
-Best for: Attorneys who have an existing website or developer
-
----
-
-### Option 2: Domain + Website Template
+### Option 1: Domain + Website Template
 **$3,500**
 
 Includes:
@@ -125,10 +114,10 @@ Best for: Attorneys with technical ability or a web developer
 
 ---
 
-### Option 3: Domain + Website + Setup (RECOMMENDED)
+### Option 2: Domain + Website + Setup (RECOMMENDED)
 **$4,500**
 
-Includes everything in Option 2, plus:
+Includes everything in Option 1, plus:
 - Your name, photo, and contact info added
 - Customized content (bio, credentials, case results)
 - Hosting setup assistance
