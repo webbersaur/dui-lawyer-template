@@ -448,6 +448,81 @@
             border-radius: 50%;
         }
 
+        /* Appraisal */
+        .appraisal {
+            padding: 80px 0;
+            background: var(--white);
+        }
+
+        .appraisal-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .appraisal-image {
+            flex: 1;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+        }
+
+        .appraisal-image img {
+            width: 100%;
+            display: block;
+        }
+
+        .appraisal-content {
+            flex: 1;
+        }
+
+        .appraisal-value {
+            font-size: 64px;
+            font-weight: 800;
+            color: var(--secondary);
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+
+        .appraisal-source {
+            font-size: 18px;
+            color: var(--gray);
+            margin-bottom: 20px;
+        }
+
+        .appraisal-content p {
+            color: var(--gray);
+            margin-bottom: 20px;
+        }
+
+        .appraisal-factors {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+
+        .appraisal-factors li {
+            padding: 8px 0;
+            color: var(--dark);
+            font-size: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .appraisal-factors li:last-child {
+            border-bottom: none;
+        }
+
+        .appraisal-link {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .appraisal-link:hover {
+            text-decoration: underline;
+        }
+
         /* CTA */
         .cta {
             padding: 80px 0;
@@ -510,6 +585,14 @@
 
             .preview-wrapper {
                 flex-direction: column;
+            }
+
+            .appraisal-wrapper {
+                flex-direction: column;
+            }
+
+            .appraisal-value {
+                font-size: 48px;
             }
 
             .included-grid,
@@ -681,6 +764,33 @@
                         <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Fast loading (single HTML file)</li>
                         <li><svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg> Mobile-responsive design</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Domain Appraisal -->
+    <section class="appraisal">
+        <div class="container">
+            <div class="section-title">
+                <h2>Independent Domain Appraisal</h2>
+                <p>Third-party valuation confirms the domain's worth</p>
+            </div>
+            <div class="appraisal-wrapper">
+                <div class="appraisal-image">
+                    <img src="appraisal-estibot.png" alt="EstiBot Domain Appraisal - $1,700">
+                </div>
+                <div class="appraisal-content">
+                    <div class="appraisal-value">$1,700</div>
+                    <div class="appraisal-source">EstiBot Appraised Value</div>
+                    <p>EstiBot is the most trusted name in domain valuation, appraising over 2 million domains per day.</p>
+                    <ul class="appraisal-factors">
+                        <li><strong>Great Extension:</strong> .com has the highest resale value</li>
+                        <li><strong>Very Short:</strong> Short domains are more memorable</li>
+                        <li><strong>Highly Competitive:</strong> Advertisers pay $50+ per click for "DUI lawyer"</li>
+                        <li><strong>Exact Match:</strong> Matches "CT DUI Lawyer" search queries</li>
+                    </ul>
+                    <a href="https://www.estibot.com/appraise?a=get&id=82571406&domain=ctduilawyer.com&source=appraise" target="_blank" class="appraisal-link">View Full Appraisal Report →</a>
                 </div>
             </div>
         </div>
