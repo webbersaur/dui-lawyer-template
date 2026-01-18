@@ -768,6 +768,15 @@
             .roi-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
+
+            .seller-wrapper {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .seller-stats {
+                justify-content: center;
+            }
         }
 
         @media (max-width: 768px) {
@@ -783,6 +792,69 @@
             .roi-grid {
                 grid-template-columns: 1fr;
             }
+
+            .seller-stats {
+                gap: 25px;
+            }
+
+            .stat-number {
+                font-size: 28px;
+            }
+        }
+
+        /* About Seller */
+        .about-seller {
+            padding: 80px 0;
+            background: var(--light);
+        }
+
+        .seller-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .seller-logo {
+            flex-shrink: 0;
+        }
+
+        .seller-logo img {
+            width: 180px;
+            height: auto;
+        }
+
+        .seller-content h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .seller-content p {
+            color: var(--gray);
+            margin-bottom: 30px;
+        }
+
+        .seller-stats {
+            display: flex;
+            gap: 40px;
+        }
+
+        .seller-stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--gray);
+            margin-top: 5px;
         }
 
         /* Print Styles */
@@ -1127,6 +1199,35 @@
                         <li>Mobile-first responsive</li>
                         <li>Clean URL structure ready</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Webbersaurus -->
+    <section class="about-seller">
+        <div class="container">
+            <div class="seller-wrapper">
+                <div class="seller-logo">
+                    <img src="dinowords.png" alt="Webbersaurus Logo">
+                </div>
+                <div class="seller-content">
+                    <h2>About Webbersaurus</h2>
+                    <p>We're a Connecticut-based web development studio specializing in premium domains and high-converting websites for professionals. Our focus is on delivering assets that generate real results.</p>
+                    <div class="seller-stats">
+                        <div class="seller-stat">
+                            <div class="stat-number">18</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="seller-stat">
+                            <div class="stat-number">30</div>
+                            <div class="stat-label">5-Star Reviews</div>
+                        </div>
+                        <div class="seller-stat">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
