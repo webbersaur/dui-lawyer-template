@@ -1167,9 +1167,53 @@
             font-size: 20px;
             font-weight: 700;
         }
+            /* Floating Buy Button */
+        .floating-buy-btn {
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 9999;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+        }
+
+        .floating-buy-btn a {
+            display: block;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: #fff;
+            padding: 20px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .floating-buy-btn a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 25px rgba(16, 185, 129, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .floating-buy-btn {
+                right: 10px;
+            }
+
+            .floating-buy-btn a {
+                padding: 15px 10px;
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
+    <!-- Floating Buy Button -->
+    <div class="floating-buy-btn">
+        <a href="index.html#pricing">BUY NOW</a>
+    </div>
     <!-- Header -->
     <header>
         <div class="header-top">
